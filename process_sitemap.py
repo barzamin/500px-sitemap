@@ -24,4 +24,4 @@ for url_e in urlset:
     license_e = url_e.find('{*}image').find('{*}license')
     license_uri = license_e.text
     if 'creativecommons' in license_uri:
-        print(idx)        
+        print(idx)
